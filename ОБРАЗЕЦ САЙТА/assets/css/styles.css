@@ -1,0 +1,63 @@
+/* Общие стили */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Стили для заголовков */
+h1 {
+    color: #333;
+    font-size: 2rem;
+}
+
+/* Стили для навигационного меню */
+.nav-menu {
+    display: none;
+}
+
+.nav-menu.is-active {
+    display: block;
+}
+
+.nav-menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+.nav-menu ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.nav-menu ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* Стили для футера */
+footer {
+    background-color: #f4f4f4;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.social-links {
+    list-style: none;
+    padding: 0;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.social-links li a {
+    text-decoration: none;
+    color: #333;
+}
